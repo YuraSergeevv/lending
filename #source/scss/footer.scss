@@ -1,0 +1,12 @@
+.footer{
+    border-top: 2px solid rgba(255,255,255,0.1);
+    background-color: #000000;
+    .footer_inner{
+        height: 330px;
+        display: flex;
+        align-items: center;
+    }
+    a{
+        font-weight: 700;
+    }
+}
