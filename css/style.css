@@ -381,6 +381,7 @@ h3 {
 }
 
 .button {
+  min-width: 215px;
   color: #ffffff;
   padding: 12px;
   background-color: #b8860b;
@@ -477,7 +478,7 @@ a:hover {
 }
 .cards_wrap .card_item {
   width: calc(100% / 3);
-  padding: 20px 15px 0;
+  padding: 20px 15px 0 25px;
 }
 .cards_wrap .card_item:first-of-type {
   padding-top: 0;
@@ -499,9 +500,6 @@ a:hover {
   height: 40px;
   object-fit: contain;
 }
-.cards_wrap .card_item h3 {
-  width: 80%;
-}
 .cards_wrap .card_item .special_text {
   font-weight: 700;
   color: rgba(255, 255, 255, 0.4);
@@ -513,6 +511,7 @@ a:hover {
 }
 .cards_wrap .card_item .text {
   font-weight: 300;
+  text-align: justify;
   line-height: 1.8;
 }
 
@@ -560,4 +559,15 @@ a:hover {
 }
 .contacts_wrap .button_wrap .button:last-of-type {
   margin: 0;
+}
+
+.decoB_js {
+  opacity: 0;
+  transition: 0.8s 0.1s ease-in-out;
+  transform: translateY(10%);
+}
+
+.active.decoB_js {
+  transform: translateY(0);
+  opacity: 1;
 }
