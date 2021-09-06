@@ -168,7 +168,7 @@ h3{
     min-width: 215px;
     color: #ffffff;
     padding: 12px;
-    background-color: #b8860b;
+    background-color: #dd3a37;
     display: inline-block;
     margin-bottom: 0;
     font-size: 14px;
@@ -191,7 +191,7 @@ h3{
        color: inherit; 
     }
     &:hover{
-        background-color: #39ecb3;;
+        background-color: #990000;;
     }
 }
 
@@ -344,6 +344,35 @@ a{
             &:last-of-type{
                 margin: 0;
             }
+        }
+    }
+}
+
+.social_wrap{
+
+    .contacts_inner {
+        border-top: 2px solid rgba(255,255,255,0.1) ;
+        border-bottom: 2px solid rgba(255,255,255,0.1) ;
+        padding: 50px 0;
+    }
+    h2{
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 1.8;
+        margin-bottom: 20px;
+    }
+    .social{
+        margin-right: 10px;
+        &:hover{
+            .icon{
+                fill:#dd3a37;
+            }
+        }
+        .icon{
+            transition: 0.4s;
+            width: 50px;
+            height: 50px;
+            fill: #ffffff;
         }
     }
 }
